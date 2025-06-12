@@ -9,6 +9,14 @@ h1, em, p, button {
     text-align: left;
 }
 
+h1 {
+    color: #3193d4;
+    font-size: 2rem;
+    text-align: center;
+    border: #0056b3 2px solid;
+    padding: 10px;
+    margin: 20px 0;
+}
 .figure {
     display: flex;
     flex-direction: column;
