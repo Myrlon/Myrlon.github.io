@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+}
+
+h1, em, p, button {
+    /* Les textes ne sont plus centrés */
+    text-align: left;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-buttons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0 10px 0;
+}
+
+button {
+
+    padding: 10px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: all-scroll;
+    transition: background 0.2s, transform 0.2s;
+}
+
+/* Effet au survol des boutons */
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Effet au survol des images */
+img:hover {
+    filter: brightness(0.85) contrast(1.2);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transition: filter 0.2s, box-shadow 0.2s;
+}
+
+/* Effet au survol des titres */
+h1:hover {
+    color: #007bff;
+    letter-spacing: 2px;
+    transition: color 0.2s, letter-spacing 0.2s;
+}
